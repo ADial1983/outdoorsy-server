@@ -17,7 +17,10 @@ class RatingView(ViewSet):
 
 
     def list(self, request):
-        ratings = Rating.objects.all()
+        if "trail" in request.query_params:
+            ratings = Rating.objects.filter(trail_id=request.query_params['trail'])
+        else: 
+            ratings = Rating.objects.all()
         serializer = RatingSerializer(ratings, many=True)
         return Response(serializer.data)
     
