@@ -4,7 +4,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
 from outdoorsyapi.models import Review, Trail
-
+from django.contrib.auth.models import User
 
 class ReviewView(ViewSet):
     
@@ -17,14 +17,18 @@ class ReviewView(ViewSet):
 
 
     def list(self, request):
+        currentUser = User.objects.get(id=request.auth.user_id)
+
         if "trail" in request.query_params:
             reviews = Review.objects.filter(trail_id=request.query_params['trail'])
-            serializer = ReviewSerializer(reviews, many=True)
-            return Response(serializer.data)
         else: 
             reviews = Review.objects.all()
-            serializer = ReviewSerializer(reviews, many=True)
-            return Response(serializer.data)
+
+        for review in reviews:
+            if review.user == currentUser:
+                review.author=True
+        serializer = ReviewSerializer(reviews, many=True)
+        return Response(serializer.data)
     
 
     def create(self, request):
@@ -60,4 +64,4 @@ class ReviewSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Review
-        fields = ('id','user', 'trail', 'review')
+        fields = ('id','user', 'trail', 'review', 'author')
