@@ -1,0 +1,29 @@
+[
+    {
+        "model": "outdoorsyapi.review",
+        "pk": 1,
+        "fields": {
+            "trail": 1,
+            "user": 1,
+            "review": "John Bragg is a very accessible trail. The parking lot is nearby, the trail is wide and paved with only small inclines. The only major issue is the lack of bathrooms."
+        }
+    },
+    {
+        "model": "outdoorsyapi.review",
+        "pk": 2,
+        "fields": {
+            "trail": 2,
+            "user": 1,
+            "review": "The Old Mill is a great place to visit! There is a bit of a steep hill and a narrow bridge, but overall this trail is great!"
+        }
+    },
+    {
+        "model": "outdoorsyapi.review",
+        "pk": 3,
+        "fields": {
+            "trail": 3,
+            "user": 1,
+            "review": "Shimmer falls is a challenging trail for many people regardless of ability level. The trail is rocky and the parking lot is far from the trail entrance."
+        }
+    }
+]

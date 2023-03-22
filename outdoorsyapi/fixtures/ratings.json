@@ -1,0 +1,41 @@
+[
+    {
+        "model": "outdoorsyapi.rating",
+        "pk": 1,
+        "fields": {
+            "trail": 1,
+            "user": 1,
+            "parking": 4,
+            "bathroom": 1,
+            "width": 3,
+            "clear": 5,
+            "steep": 5
+        }
+    },
+    {
+        "model": "outdoorsyapi.rating",
+        "pk": 2,
+        "fields": {
+            "trail": 2,
+            "user": 1,
+            "parking": 5,
+            "bathroom": 4,
+            "width": 5,
+            "clear": 3,
+            "steep": 3
+        }
+    },
+    {
+        "model": "outdoorsyapi.rating",
+        "pk": 3,
+        "fields": {
+            "trail": 3,
+            "user": 1,
+            "parking": 2,
+            "bathroom": 2,
+            "width": 4,
+            "clear": 2,
+            "steep": 1
+        }
+    }
+]

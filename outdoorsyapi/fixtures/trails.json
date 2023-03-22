@@ -1,0 +1,29 @@
+[
+    {
+        "model": "outdoorsyapi.trail",
+        "pk": 1,
+        "fields": {
+            "name": "John Bragg Trailhead",
+            "length": 1.2,
+            "description": "This trail winds through a dense forest of tall trees, offering glimpses of sunlight filtering through the leaves. Eventually it leads to a breathtaking overlook with panoramic views of the surrounding mountains and valleys."
+        }
+    },
+    {
+        "model": "outdoorsyapi.trail",
+        "pk": 2,
+        "fields": {
+            "name": "Old Mill Trailhead",
+            "length": 0.25,
+            "description": "The Old Mill Trailhead follows a bubbling stream, passing by the ruins of an old mill that dates back to the 1800s. Visitors can explore the remnants of the mill, including the massive stone walls and water wheel, while enjoying the natural beauty of the surrounding woods."
+        }
+    },
+    {
+        "model": "outdoorsyapi.trail",
+        "pk": 3,
+        "fields": {
+            "name": "Shimmer Falls Trailhead",
+            "length": 3.4,
+            "description": "The trail leads to the stunning Shimmer Falls, where visitors can feel the cool mist on their faces and hear the thundering roar of the water as it plunges into a pool below."
+        }
+    }
+]

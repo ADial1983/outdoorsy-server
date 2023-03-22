@@ -1,0 +1,50 @@
+[
+    {
+        "model": "outdoorsyapi.trailimage",
+        "pk": 1,
+        "fields": {
+            "trail": 1,
+            "image": 1
+        }
+    },
+    {
+        "model": "outdoorsyapi.trailimage",
+        "pk": 2,
+        "fields": {
+            "trail": 1,
+            "image": 2
+        }
+    },
+    {
+        "model": "outdoorsyapi.trailimage",
+        "pk": 3,
+        "fields": {
+            "trail": 2,
+            "image": 3
+        }
+    },
+    {
+        "model": "outdoorsyapi.trailimage",
+        "pk": 4,
+        "fields": {
+            "trail": 2,
+            "image": 4
+        }
+    },
+    {
+        "model": "outdoorsyapi.trailimage",
+        "pk": 5,
+        "fields": {
+            "trail": 3,
+            "image": 5
+        }
+    },
+    {
+        "model": "outdoorsyapi.trailimage",
+        "pk": 6,
+        "fields": {
+            "trail": 3,
+            "image": 6
+        }
+    }
+]

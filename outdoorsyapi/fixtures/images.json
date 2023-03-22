@@ -1,0 +1,44 @@
+[
+    {
+        "model": "outdoorsyapi.image",
+        "pk": 1,
+        "fields": {
+            "image": "https://media.timeout.com/images/105655983/image.jpg"
+        }
+    },
+    {
+        "model": "outdoorsyapi.image",
+        "pk": 2,
+        "fields": {
+            "image": "https://www.greatsmokies.com/wp-content/uploads/2019/03/Morton-Overlook-1.jpg"
+        }
+    },
+    {
+        "model": "outdoorsyapi.image",
+        "pk": 3,
+        "fields": {
+            "image": "https://vacationmaybe.com/wp-content/uploads/2013/07/spring-mill-state-park-1024x768-1024x585.jpg"
+        }
+    },
+    {
+        "model": "outdoorsyapi.image",
+        "pk": 4,
+        "fields": {
+            "image": "https://www.naturallyamazing.com/americasparks/19538.jpg"
+        }
+    },
+    {
+        "model": "outdoorsyapi.image",
+        "pk": 5,
+        "fields": {
+            "image": "https://www.mypigeonforge.com/wp-content/uploads/2021/08/waterfall-hike-rainbow-falls-1000x573-1.jpg"
+        }
+    },
+    {
+        "model": "outdoorsyapi.image",
+        "pk": 6,
+        "fields": {
+            "image": "http://www.ncwaterfalls.com/rainbow_gsmnp21_raw.jpg"
+        }
+    }
+]

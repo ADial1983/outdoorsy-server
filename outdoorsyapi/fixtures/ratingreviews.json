@@ -1,0 +1,26 @@
+[
+    {
+        "model": "outdoorsyapi.ratingreview",
+        "pk": 1,
+        "fields": {
+            "rating": 1,
+            "review": 1
+        }
+    },
+    {
+        "model": "outdoorsyapi.ratingreview",
+        "pk": 2,
+        "fields": {
+            "rating": 2,
+            "review": 2
+        }
+    },
+    {
+        "model": "outdoorsyapi.ratingreview",
+        "pk": 3,
+        "fields": {
+            "rating": 3,
+            "review": 3
+        }
+    }
+]
